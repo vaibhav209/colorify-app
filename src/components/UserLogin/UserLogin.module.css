@@ -1,0 +1,44 @@
+.headingName {
+  display: inline-block;
+  font-family: "Courier New";
+  font-size: 45px;
+  background-image: linear-gradient(
+    to right,
+    #f22,
+    #f2f,
+    #22f,
+    #2ff,
+    #2f2,
+    #ff2
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.loginSection {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.userInput {
+  width: 294px;
+  height: 44px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.UserButton {
+  cursor: pointer;
+  width: 100px;
+  height: 44px;
+  border: none;
+  background-color: #e7e7e7;
+  font-weight: 600;
+  margin-inline: 20px;
+  box-shadow: 2px 2px #252525;
+}
+.UserButton:hover {
+  background-color: #57ff97;
+}

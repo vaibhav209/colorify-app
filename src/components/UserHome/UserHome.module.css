@@ -1,0 +1,106 @@
+.masterBoard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.mainBoard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  padding: 5px;
+  box-shadow: 0px 0px 12px;
+}
+
+.colorDisplay {
+  width: 100px;
+  height: 1000px;
+  border-radius: 15%;
+  box-shadow: 3px 3px;
+}
+.colorPoint {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: solid black 2px;
+  display: inline-block;
+  margin-bottom: 2px;
+  margin-right: 3px;
+}
+.colorSection {
+  display: flex;
+  margin-top: 15%;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.boxList {
+  width: 100px;
+  height: 100px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.userButtons {
+  background-color: #999999;
+  display: flex;
+  justify-content: space-around;
+  border-top: 2px solid;
+}
+.createButtons {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+.createButtons:hover {
+  opacity: 0.8;
+}
+
+.saveButton {
+  cursor: pointer;
+  width: 42px;
+  height: 42px;
+  margin-top: 20px;
+}
+
+.editedButton {
+  cursor: pointer;
+  width: 24px;
+  height: 22px;
+  margin-top: 35px;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin: 5px;
+}
+.logoutButton {
+  position: absolute;
+  left: 10px;
+  bottom: 5px;
+  cursor: pointer;
+  text-align: center;
+  width: 80px;
+  height: 40px;
+  border: none;
+  color: black;
+  letter-spacing: 1.5px;
+  border-radius: 2px;
+  background-color: #e7e7e7;
+  font-weight: 500;
+  box-shadow: 2px 2px #252525;
+}
+.logoutButton:hover {
+  background-color: rgba(255, 0, 0, 0.821);
+  color: white;
+}
+
+
